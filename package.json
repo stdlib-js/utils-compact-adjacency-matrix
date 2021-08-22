@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-compact-adjacency-matrix",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Compact adjacency matrix.",
   "license": "Apache-2.0",
   "author": {
@@ -15,7 +15,6 @@
   ],
   "main": "./lib",
   "directories": {
-    "benchmark": "./benchmark",
     "doc": "./docs",
     "example": "./examples",
     "lib": "./lib",
