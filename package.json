@@ -44,6 +44,7 @@
     "@stdlib/assert-is-nonnegative-integer": "^0.0.x",
     "@stdlib/assert-is-object": "^0.0.x",
     "@stdlib/blas-ext-base-grev": "^0.0.x",
+    "@stdlib/boolean-ctor": "^0.0.x",
     "@stdlib/math-base-special-ceil": "^0.0.x",
     "@stdlib/math-base-special-floor": "^0.0.x",
     "@stdlib/string-format": "^0.0.x",
