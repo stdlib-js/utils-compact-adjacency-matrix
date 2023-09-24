@@ -38,12 +38,12 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/utils/compact-adjacency-matrix"
-click B href "https://github.com/stdlib-js/utils-compact-adjacency-matrix/tree/main"
-click C href "https://github.com/stdlib-js/utils-compact-adjacency-matrix/tree/production"
-click D href "https://github.com/stdlib-js/utils-compact-adjacency-matrix/tree/esm"
-click E href "https://github.com/stdlib-js/utils-compact-adjacency-matrix/tree/deno"
-click F href "https://github.com/stdlib-js/utils-compact-adjacency-matrix/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/utils/compact-adjacency-matrix"
+%% click B href "https://github.com/stdlib-js/utils-compact-adjacency-matrix/tree/main"
+%% click C href "https://github.com/stdlib-js/utils-compact-adjacency-matrix/tree/production"
+%% click D href "https://github.com/stdlib-js/utils-compact-adjacency-matrix/tree/esm"
+%% click E href "https://github.com/stdlib-js/utils-compact-adjacency-matrix/tree/deno"
+%% click F href "https://github.com/stdlib-js/utils-compact-adjacency-matrix/tree/umd"
 ```
 
 [stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/utils/compact-adjacency-matrix
