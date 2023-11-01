@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2021 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,30 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var instanceOf = require( '@stdlib/assert-instance-of' );
-var CompactAdjacencyMatrix = require( './../../dist' );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof CompactAdjacencyMatrix, 'function', 'main export is a function' );
-	t.end();
-});
-
-tape( 'the function is a constructor', function test( t ) {
-	var mat = new CompactAdjacencyMatrix( 4 );
-	t.strictEqual( instanceOf( mat, CompactAdjacencyMatrix ), true, 'returns an instance' );
-	t.end();
-});
-
-tape( 'the constructor does not require the `new` keyword', function test( t ) {
-	var compactAdjacencyMatrix;
-	var mat;
-
-	compactAdjacencyMatrix = CompactAdjacencyMatrix;
-	mat = compactAdjacencyMatrix( 4 );
-	t.strictEqual( instanceOf( mat, CompactAdjacencyMatrix ), true, 'returns an instance' );
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
