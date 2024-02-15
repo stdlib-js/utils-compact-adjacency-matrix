@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import CompactAdjacencyMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-compact-adjacency-matrix@esm/index.mjs';
+import CompactAdjacencyMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-compact-adjacency-matrix@v0.2.0-esm/index.mjs';
 ```
 
 #### CompactAdjacencyMatrix( N )
@@ -77,7 +77,7 @@ adj.addEdge( 2, 3 );
 <body>
 <script type="module">
 
-import CompactAdjacencyMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-compact-adjacency-matrix@esm/index.mjs';
+import CompactAdjacencyMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-compact-adjacency-matrix@v0.2.0-esm/index.mjs';
 
 // Create a new adjacency matrix:
 var adj = new CompactAdjacencyMatrix( 4 );
