@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import CompactAdjacencyMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-compact-adjacency-matrix@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-compact-adjacency-matrix/tags). For example,
+
+```javascript
 import CompactAdjacencyMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-compact-adjacency-matrix@v0.2.0-esm/index.mjs';
 ```
 
@@ -77,7 +82,7 @@ adj.addEdge( 2, 3 );
 <body>
 <script type="module">
 
-import CompactAdjacencyMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-compact-adjacency-matrix@v0.2.0-esm/index.mjs';
+import CompactAdjacencyMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-compact-adjacency-matrix@esm/index.mjs';
 
 // Create a new adjacency matrix:
 var adj = new CompactAdjacencyMatrix( 4 );
